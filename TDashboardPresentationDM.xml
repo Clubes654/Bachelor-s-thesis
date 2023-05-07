@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="TFrgtForm">
+  <Unique>{89D5543E-E1EC-4DB9-90A2-1146E6790E31}</Unique>
+  <BandsCount>12</BandsCount>
+  <StringId>TDashboardPresentationDM</StringId>
+  <Align>ufaClient</Align>
+  <ResponsiveType>frtYes</ResponsiveType>
+  <Fragments itemClass="TFrgtBase">
+    <items>
+      <item class="TFrgtPanel">
+        <Unique>{A95399D0-3628-4CBA-8A08-EB48EB69AD9C}</Unique>
+        <Order>0</Order>
+        <BandsCount>12</BandsCount>
+        <Align>ufaClient</Align>
+        <Fragments itemClass="TFrgtBase">
+          <items>
+            <item class="TFrgtListDetailTabControl">
+              <Unique>{1186F631-0CD9-4B6D-AFF0-F6016EFEBC66}</Unique>
+              <Order>2</Order>
+              <BandsCount>12</BandsCount>
+              <Align>ufaClient</Align>
+              <Fragments itemClass="TFrgtBase">
+                <items>
+                  <item class="TFrgtPanel">
+                    <Unique>{D4B6A471-DB80-4694-A7AC-6D0DC7C0D279}</Unique>
+                    <Order>0</Order>
+                    <Title>@FRAGMENTS_LOCALIZATION.Id0000376309@-1&quot;Dashboardy&quot;</Title>
+                    <Icon>list</Icon>
+                    <DataContext>:list</DataContext>
+                    <BandsCount>12</BandsCount>
+                    <Align>ufaClient</Align>
+                    <Fragments itemClass="TFrgtBase">
+                      <items>
+                        <item class="TFrgtGrid">
+                          <Unique>{899FC674-ADB1-498F-9DFE-699E533E6DB2}</Unique>
+                          <Order>0</Order>
+                          <Title>@FRAGMENTS_LOCALIZATION.Id0000376310@-1&quot;Dashboardy - prezentace&quot;</Title>
+                          <Icon>list</Icon>
+                          <BandsCount>12</BandsCount>
+                          <Actions itemClass="TUFActionBase">
+                            <items>
+                              <item class="TUFActionReference">
+                                <Unique>{0BC84F17-77DE-4BCC-8DF7-9055BF676C36}</Unique>
+                                <Order>0</Order>
+                                <Command>actnr-BaseGridGroup</Command>
+                              </item>
+                            </items>
+                          </Actions>
+                          <Align>ufaClient</Align>
+                          <MinRowCount>6</MinRowCount>
+                          <InlineMode>gilmByUser</InlineMode>
+                        </item>
+                      </items>
+                    </Fragments>
+                  </item>
+                  <item class="TFrgtPanel">
+                    <Unique>{44C8A05C-A0C1-49DD-B707-EBFE85C12031}</Unique>
+                    <Order>1</Order>
+                    <Title>@FRAGMENTS_LOCALIZATION.Id0000376311@-1&quot;Detail&quot;</Title>
+                    <Icon>pagebasicinformation</Icon>
+                    <DataContext>:detail</DataContext>
+                    <BandsCount>12</BandsCount>
+                    <Align>ufaClient</Align>
+                    <Fragments itemClass="TFrgtBase">
+                      <items>
+                        <item class="TFrgtGrid">
+                          <Unique>{4EED5FAC-8DED-4FA8-BDEE-F94ABFCDA1C2}</Unique>
+                          <Order>12</Order>
+                          <DataContext>ItemChild</DataContext>
+                          <BandsCount>12</BandsCount>
+                          <Actions itemClass="TUFActionBase">
+                            <items>
+                              <item class="TUFActionReference">
+                                <Unique>{33B105EA-34A2-439E-B774-36F5C01BA3F8}</Unique>
+                                <Order>0</Order>
+                                <Command>actnr-DependentChildGrid</Command>
+                              </item>
+                            </items>
+                          </Actions>
+                          <Align>ufaClient</Align>
+                          <InlineMode>gilmByUser</InlineMode>
+                        </item>
+                        <item class="TFrgtExpander">
+                          <Unique>{AD574F4F-66A0-4047-83DB-9EDB12319EB6}</Unique>
+                          <Order>0</Order>
+                          <Title>@FRAGMENTS_LOCALIZATION.Id0000376312@-1&quot;Základní údaje&quot;</Title>
+                          <BandsCount>12</BandsCount>
+                          <Fragments itemClass="TFrgtBase">
+                            <items>
+                              <item class="TFrgtInput">
+                                <Unique>{DA2A2E8E-F5FF-4DC9-9176-CFF5AEAB400D}</Unique>
+                                <Order>0</Order>
+                                <DataContext>Name</DataContext>
+                                <BandsCount>4</BandsCount>
+                              </item>
+                              <item class="TFrgtInput">
+                                <Unique>{453FC4F1-2C36-4B81-B6F8-A4C35688DDA5}</Unique>
+                                <Order>1</Order>
+                                <DataContext>Description</DataContext>
+                                <BandsCount>8</BandsCount>
+                                <Align>ufaBottom</Align>
+                              </item>
+                              <item class="TFrgtInput">
+                                <Unique>{B553F91A-2F7F-400D-B414-9AAE354C70BF}</Unique>
+                                <Order>2</Order>
+                                <DataContext>..\:parameters\Url</DataContext>
+                                <BandsCount>12</BandsCount>
+                              </item>
+                            </items>
+                          </Fragments>
+                          <Scroll>True</Scroll>
+                          <LiteHeader>False</LiteHeader>
+                        </item>
+                      </items>
+                    </Fragments>
+                  </item>
+                </items>
+              </Fragments>
+            </item>
+            <item class="TFrgtRibbon">
+              <Unique>{5526B2C7-4607-41D5-A5F3-9A57549BF070}</Unique>
+              <Order>1</Order>
+              <BandsCount>12</BandsCount>
+              <Actions itemClass="TUFActionBase">
+                <items>
+                  <item class="TUFActionGroup">
+                    <Unique>{5AAAFC89-54B7-4387-B68A-A8E85EDEEC86}</Unique>
+                    <Order>0</Order>
+                    <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000032@-1&quot;Domů&quot;</Title>
+                    <Actions class="TUFGroupActionCollection" itemClass="TUFActionBase">
+                      <items>
+                        <item class="TUFActionGroup">
+                          <Unique>{011B8E73-91E2-4E84-8B92-8D8F84BF5A3B}</Unique>
+                          <Order>0</Order>
+                          <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000002@-1&quot;Navigace&quot;</Title>
+                          <Actions class="TUFGroupActionCollection" itemClass="TUFActionBase">
+                            <items>
+                              <item class="TUFActionReference">
+                                <Unique>{0AAC2EE6-9FDC-407D-842B-BA7823F00DA2}</Unique>
+                                <Order>0</Order>
+                                <Command>actnr-RB_HomeNavigation</Command>
+                              </item>
+                            </items>
+                          </Actions>
+                        </item>
+                        <item class="TUFActionGroup">
+                          <Unique>{1BD4F076-AA19-4B03-BC16-15432AB21EF3}</Unique>
+                          <Order>1</Order>
+                          <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000003@-1&quot;Záznam&quot;</Title>
+                          <Actions class="TUFGroupActionCollection" itemClass="TUFActionBase">
+                            <items>
+                              <item class="TUFActionReference">
+                                <Unique>{54ECB85D-0863-4950-92DA-929600AA7313}</Unique>
+                                <Order>0</Order>
+                                <Command>actnr-RB_HomeRecord</Command>
+                              </item>
+                              <item class="TUFAction">
+                                <Unique>{EC9ACA65-0270-42D6-B880-4607ABDED2E8}</Unique>
+                                <Order>2</Order>
+                                <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000214@-1&quot;Vložit dashboard&quot;</Title>
+                                <Icon>wui*frgt.dashboard</Icon>
+                                <Command>\:detail\ItemChild\AddItemDashboardCOMMAND</Command>
+                              </item>
+                              <item class="TUFAction">
+                                <Unique>{A734D805-3062-4476-83F1-8810A54B41F5}</Unique>
+                                <Order>3</Order>
+                                <Command>\StartDashboardPresentationCOMMAND</Command>
+                              </item>
+                            </items>
+                          </Actions>
+                        </item>
+                        <item class="TUFActionGroup">
+                          <Unique>{F16EFF29-8263-473B-AD1B-762AAB6B2845}</Unique>
+                          <Order>2</Order>
+                          <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000012@-1&quot;Stav&quot;</Title>
+                          <Actions class="TUFGroupActionCollection" itemClass="TUFActionBase">
+                            <items>
+                              <item class="TUFAction">
+                                <Unique>{36E4FB89-CF11-4A45-AD05-573BC8A1A44B}</Unique>
+                                <Order>0</Order>
+                                <Command>\InvalidationCOMMAND</Command>
+                              </item>
+                            </items>
+                          </Actions>
+                        </item>
+                        <item class="TUFActionGroup">
+                          <Unique>{D120E698-785B-4837-9AC6-26A4C605D5C5}</Unique>
+                          <Order>3</Order>
+                          <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000033@-1&quot;Hromadné akce&quot;</Title>
+                          <Actions class="TUFGroupActionCollection" itemClass="TUFActionBase">
+                            <items>
+                              <item class="TUFAction">
+                                <Unique>{6D852191-7713-48A5-9809-6FF8F28B5E99}</Unique>
+                                <Order>0</Order>
+                                <Command>BulkChangeCOMMAND</Command>
+                              </item>
+                            </items>
+                          </Actions>
+                        </item>
+                        <item class="TUFActionGroup">
+                          <Unique>{78FCBA99-1458-46EA-8E24-14D39F42B0B2}</Unique>
+                          <Order>4</Order>
+                          <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000004@-1&quot;Ostatní&quot;</Title>
+                          <Actions class="TUFGroupActionCollection" itemClass="TUFActionBase">
+                            <items>
+                              <item class="TUFActionReference">
+                                <Unique>{5A3D40FE-E6A0-4A07-B61F-FC2AAB563957}</Unique>
+                                <Order>0</Order>
+                                <Command>actnr-RB_HomeOthers</Command>
+                              </item>
+                            </items>
+                          </Actions>
+                        </item>
+                      </items>
+                    </Actions>
+                  </item>
+                  <item class="TUFActionGroup">
+                    <Unique>{73868F95-3579-4522-8734-D6CABA3A7E93}</Unique>
+                    <Order>3</Order>
+                    <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000034@-1&quot;Systém&quot;</Title>
+                    <Actions class="TUFGroupActionCollection" itemClass="TUFActionBase">
+                      <items>
+                        <item class="TUFActionGroup">
+                          <Unique>{937837B6-FDE2-49E5-B4D2-435BA776B56F}</Unique>
+                          <Order>0</Order>
+                          <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000005@-1&quot;Zobrazit&quot;</Title>
+                          <Actions class="TUFGroupActionCollection" itemClass="TUFActionBase">
+                            <items>
+                              <item class="TUFActionReference">
+                                <Unique>{148EEEA3-6443-4797-AA0E-BC7E88F9ED9F}</Unique>
+                                <Order>0</Order>
+                                <Command>actnr-RB_SystemView</Command>
+                              </item>
+                            </items>
+                          </Actions>
+                        </item>
+                        <item class="TUFActionGroup">
+                          <Unique>{EE86E7BC-893C-48DD-A5ED-4615455DBDE7}</Unique>
+                          <Order>1</Order>
+                          <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000006@-1&quot;Formulář&quot;</Title>
+                          <Actions class="TUFGroupActionCollection" itemClass="TUFActionBase">
+                            <items>
+                              <item class="TUFActionReference">
+                                <Unique>{7DE93386-DA4F-4246-A179-9627DDB735AD}</Unique>
+                                <Order>0</Order>
+                                <Command>actnr-RB_SystemForm</Command>
+                              </item>
+                            </items>
+                          </Actions>
+                        </item>
+                        <item class="TUFActionGroup">
+                          <Unique>{C89D3AFE-F0C5-44BD-AD81-9ECEA8FA78F4}</Unique>
+                          <Order>2</Order>
+                          <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000007@-1&quot;Nápověda&quot;</Title>
+                          <Actions class="TUFGroupActionCollection" itemClass="TUFActionBase">
+                            <items>
+                              <item class="TUFActionReference">
+                                <Unique>{F605EA63-6C55-49EE-A8A5-B98F5DF6EE59}</Unique>
+                                <Order>0</Order>
+                                <Command>actnr-RB_SystemHelp</Command>
+                              </item>
+                            </items>
+                          </Actions>
+                        </item>
+                        <item class="TUFActionGroup">
+                          <Unique>{FDC35231-48FA-4004-BE86-975AA1697C7C}</Unique>
+                          <Order>3</Order>
+                          <Title>@LOOSE_FRAGMENTS_LOCALIZATION.Id0000000004@-1&quot;Ostatní&quot;</Title>
+                          <Actions class="TUFGroupActionCollection" itemClass="TUFActionBase">
+                            <items>
+                              <item class="TUFActionReference">
+                                <Unique>{855E3B4E-DD0C-4722-8047-B7A46052D0C8}</Unique>
+                                <Order>0</Order>
+                                <Command>actnr-RB_SystemOthers</Command>
+                              </item>
+                            </items>
+                          </Actions>
+                        </item>
+                      </items>
+                    </Actions>
+                  </item>
+                </items>
+              </Actions>
+              <Orientation>rorHorizontal</Orientation>
+            </item>
+          </items>
+        </Fragments>
+      </item>
+    </items>
+  </Fragments>
+  <WHRatio>5</WHRatio>
+</object>

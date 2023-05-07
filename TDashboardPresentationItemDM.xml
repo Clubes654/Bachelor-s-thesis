@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="TFrgtForm">
+  <Unique>{B82BC08C-AC78-48E0-9173-F3314B49BF56}</Unique>
+  <BandsCount>12</BandsCount>
+  <StringId>TDashboardPresentationItemDM_View</StringId>
+  <Align>ufaClient</Align>
+  <ResponsiveType>frtYes</ResponsiveType>
+  <Fragments itemClass="TFrgtBase">
+    <items>
+      <item class="TFrgtWebView">
+        <Unique>{267EA18E-62CC-449C-A2F3-1C689CBE02A0}</Unique>
+        <Order>0</Order>
+        <DataContext>:detail\URLAddress</DataContext>
+        <BandsCount>12</BandsCount>
+        <Align>ufaClient</Align>
+        <Size>0</Size>
+      </item>
+    </items>
+  </Fragments>
+  <WHRatio>5</WHRatio>
+</object>
